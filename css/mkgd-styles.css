@@ -1,0 +1,122 @@
+/*
+* Style-sheet for the plugin
+*/
+@import url('http://fonts.googleapis.com/css?family=Oswald:300');
+
+#mkgd-wrap{font-family: 'Oswald', aria, verdana, sans-serif;}
+#mkgd-wrap #mkgd-map-canvas, #mkgd-wrap #map_canvas {
+  border: solid 5px #000;
+  margin-bottom: 10px;
+}
+
+#mkgd-wrap .mkgd-form{}
+#mkgd-wrap .mkgd-form li{list-style: none;margin-bottom: 10px!important;font-weight: bold;}
+
+#mkgd-wrap .mkgd-form label{display: block;float: left; width: 100px;font-weight: bold;}
+#mkgd-wrap .mkgd-form input[type='button']{margin-left: 100px;font-weight: bold;}
+
+#mkgd-wrap #directions{}
+#mkgd-wrap #directions h4{margin: 0px 0px 10px 0px;padding: 0px}
+#mkgd-wrap #directions li{list-style: inside;margin: 0px; padding: 5px}
+#mkgd-wrap #directions li:nth-child(odd) {background: #EEE;color: #444;}
+#mkgd-wrap #directions li:nth-child(even) {color: #444;}
+#mkgd-wrap #directions li div{padding-left: 15px;}
+
+.mkgd-error{background-color: #F2C6C6;color: #FF0000;padding: 5px;border: solid 1px #FF0000;}
+
+/* Responsive CSS */
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+  #mkgd-wrap .mkgd-form label{width: 95%; }
+  #mkgd-wrap .mkgd-form input[type='text']{width: 95%;}
+  #mkgd-wrap .mkgd-form input[type='button']{width: auto;margin-left: 0px; }
+  #mkgd-map-canvas{width: 95%!important;}
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 321px) {
+  #mkgd-wrap .mkgd-form label{width: 95%; }
+  #mkgd-wrap .mkgd-form input[type='text']{width: 95%;}
+  #mkgd-wrap .mkgd-form input[type='button']{width: auto;margin-left: 0px; }
+  #mkgd-map-canvas{width: 95%!important;}
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+  #mkgd-wrap .mkgd-form label{width: 95%; }
+  #mkgd-wrap .mkgd-form input[type='text']{width: 95%;}
+  #mkgd-wrap .mkgd-form input[type='button']{width: auto;margin-left: 0px; }
+  #mkgd-map-canvas{width: 95%!important;}
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+  /* STYLES GO HERE */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+  /* STYLES GO HERE */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+  /* STYLES GO HERE */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+  /* STYLES GO HERE */
+}
+
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+  /* STYLES GO HERE */
+}
+
+/* iPhone 5 (portrait & landscape)----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+  #mkgd-wrap .mkgd-form label{width: 95%; }
+  #mkgd-wrap .mkgd-form input[type='text']{width: 95%;}
+  #mkgd-wrap .mkgd-form input[type='button']{width: auto;margin-left: 0px; }
+  #mkgd-map-canvas{width: 95%!important;}
+}
+
+/* iPhone 5 (landscape)----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : landscape) {
+  #mkgd-wrap .mkgd-form label{width: 95%; }
+  #mkgd-wrap .mkgd-form input[type='text']{width: 95%;}
+  #mkgd-wrap .mkgd-form input[type='button']{width: auto;margin-left: 0px; }
+  #mkgd-map-canvas{width: 95%!important;}
+}
+
+/* iPhone 5 (portrait)----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : portrait) {
+  #mkgd-wrap .mkgd-form label{width: 95%; }
+  #mkgd-wrap .mkgd-form input[type='text']{width: 95%;}
+  #mkgd-wrap .mkgd-form input[type='button']{width: auto;margin-left: 0px; }
+  #mkgd-map-canvas{width: 95%!important;}
+}
